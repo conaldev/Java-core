@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/tinh-so-ngay-trong-thang/tinh-so-ngay-trong-thang.iml" filepath="$PROJECT_DIR$/tinh-so-ngay-trong-thang/tinh-so-ngay-trong-thang.iml" />
       <module fileurl="file://$PROJECT_DIR$/ung-dung-doc-so-thanh-chu/ung-dung-doc-so-thanh-chu.iml" filepath="$PROJECT_DIR$/ung-dung-doc-so-thanh-chu/ung-dung-doc-so-thanh-chu.iml" />
       <module fileurl="file://$PROJECT_DIR$/week-1.iml" filepath="$PROJECT_DIR$/week-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xoa-phan-tu-khoi-mang/xoa-phan-tu-khoi-mang.iml" filepath="$PROJECT_DIR$/xoa-phan-tu-khoi-mang/xoa-phan-tu-khoi-mang.iml" />
     </modules>
   </component>
 </project>
