@@ -28,7 +28,7 @@ public class DeleteElement {
                 k--;
             }
         }
-        System.out.print("After delete: ");
+        System.out.print("\nAfter delete: ");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "\t");
         }
@@ -36,6 +36,7 @@ public class DeleteElement {
     public static void deleteElement(int index, int arr[]) {
         for(int i=index;i<arr.length-1;i++) {
             arr[i] = arr[i+1];
+            arr[i+1]=0;
         }
     }
 }
