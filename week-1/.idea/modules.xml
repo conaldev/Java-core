@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloName/HelloName.iml" filepath="$PROJECT_DIR$/HelloName/HelloName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bt-chuyen-doi-tien-te/bt-chuyen-doi-tien-te.iml" filepath="$PROJECT_DIR$/bt-chuyen-doi-tien-te/bt-chuyen-doi-tien-te.iml" />
       <module fileurl="file://$PROJECT_DIR$/giai-pt-bac-nhat/giai-pt-bac-nhat.iml" filepath="$PROJECT_DIR$/giai-pt-bac-nhat/giai-pt-bac-nhat.iml" />
       <module fileurl="file://$PROJECT_DIR$/th-kiem-tra-nam-nhuan/th-kiem-tra-nam-nhuan.iml" filepath="$PROJECT_DIR$/th-kiem-tra-nam-nhuan/th-kiem-tra-nam-nhuan.iml" />
       <module fileurl="file://$PROJECT_DIR$/th-tinh-chi-so-can-nang-cua-co-tho/th-tinh-chi-so-can-nang-cua-co-the.iml" filepath="$PROJECT_DIR$/th-tinh-chi-so-can-nang-cua-co-tho/th-tinh-chi-so-can-nang-cua-co-the.iml" />
