@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/giai-pt-bac-nhat/giai-pt-bac-nhat.iml" filepath="$PROJECT_DIR$/giai-pt-bac-nhat/giai-pt-bac-nhat.iml" />
       <module fileurl="file://$PROJECT_DIR$/week-1.iml" filepath="$PROJECT_DIR$/week-1.iml" />
     </modules>
   </component>
