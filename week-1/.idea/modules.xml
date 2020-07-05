@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloName/HelloName.iml" filepath="$PROJECT_DIR$/HelloName/HelloName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/[bai-tap]-xay-dung-lop-pt-bac-2/[bai-tap]-xay-dung-lop-pt-bac-2.iml" filepath="$PROJECT_DIR$/[bai-tap]-xay-dung-lop-pt-bac-2/[bai-tap]-xay-dung-lop-pt-bac-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/bt-chuyen-doi-tien-te/bt-chuyen-doi-tien-te.iml" filepath="$PROJECT_DIR$/bt-chuyen-doi-tien-te/bt-chuyen-doi-tien-te.iml" />
       <module fileurl="file://$PROJECT_DIR$/bt-dem-so-lan-xuat-hien-ky-tu-trong-chuoi/bt-dem-so-lan-xuat-hien-ky-tu-trong-chuoi.iml" filepath="$PROJECT_DIR$/bt-dem-so-lan-xuat-hien-ky-tu-trong-chuoi/bt-dem-so-lan-xuat-hien-ky-tu-trong-chuoi.iml" />
       <module fileurl="file://$PROJECT_DIR$/bt-hien-thi-20-frist-prime-number/bt-hien-thi-20-frist-prime-number.iml" filepath="$PROJECT_DIR$/bt-hien-thi-20-frist-prime-number/bt-hien-thi-20-frist-prime-number.iml" />
