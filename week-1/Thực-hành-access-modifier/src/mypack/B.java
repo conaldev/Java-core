@@ -1,7 +1,9 @@
 package mypack;
-package pack.*;
 
-class B extends pack.A {
+import pack.A;
+package pack.A;
+
+class B extends A {
 
     public static void main(String args[]){
 
