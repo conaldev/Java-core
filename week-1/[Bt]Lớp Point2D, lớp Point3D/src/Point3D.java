@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Point3D extends Point2D {
     private float z = 0.0f;
     public Point3D(){}
@@ -14,13 +16,13 @@ public class Point3D extends Point2D {
         setZ(z);
     }
     public float[] getXYZ(){
-        float[] arr = {getX(),getY(),getZ()};
+        float[] arr = {this.getX(), this.getY(), this.z};
         return arr;
     }
 
     @Override
     public String toString() {
-        return "(x,y,z)"
-                +getXYZ();
+        return "(x,y,z) "
+                + Arrays.toString(getXYZ());
     }
 }
