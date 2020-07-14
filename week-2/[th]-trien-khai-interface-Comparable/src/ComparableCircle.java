@@ -4,7 +4,7 @@ public class ComparableCircle extends Circle implements Comparable<ComparableCir
     public ComparableCircle(double radius) {
         super(radius);
     }
-    public COmparableCircle(double radius,String color, boolean filled){
+    public ComparableCircle(double radius,String color, boolean filled){
         super(radius,color,filled);
     }
 
