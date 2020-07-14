@@ -1,39 +1,45 @@
-public class Square extends Rectangle {
+public class Square implements Resizeable{
+    private double side = 3.0;
+    private String color = "blue";
+
     public Square() {
     }
 
     public Square(double side) {
-        super(side, side);
+        this.side = side;
     }
 
-    public Square(double side, String color, boolean filled) {
-        super(side, side, color, filled);
+    public Square(double side, String color) {
+        this.side = side;
+        this.color = color;
     }
 
     public double getSide() {
-        return getWidth();
+        return side;
     }
 
     public void setSide(double side) {
-        super.setWidth(side);
-        super.setLength(side);
+        this.side = side;
     }
 
-    @Override
-    public void setWidth(double width) {
-        setSide(width);
+    public String getColor() {
+        return color;
     }
 
-    @Override
-    public void setLength(double length) {
-        setSide(length);
+    public void setColor(String color) {
+        this.color = color;
     }
 
     @Override
     public String toString() {
-        return "A Square with side="
-                + getSide()
-                + ", which is a subclass of "
-                + super.toString();
+        return "Square{" +
+                "side=" + side +
+                ", color='" + color + '\'' +
+                '}';
+    }
+
+    @Override
+    public void resize(double percent) {
+        this.setSide(this.side*percent/100);
     }
 }

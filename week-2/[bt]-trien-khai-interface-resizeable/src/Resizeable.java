@@ -1,4 +1,3 @@
 public interface Resizeable {
-    resize(double percent){
-    }
+    void resize(double ratio);
 }

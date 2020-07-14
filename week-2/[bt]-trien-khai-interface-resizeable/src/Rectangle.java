@@ -1,19 +1,20 @@
-public class Rectangle extends Shape {
-    private double width = 1.0;
-    private double length = 1.0;
+public class Rectangle implements Resizeable{
+    private double width = 7.0;
+    private double height = 3.0;
+    private String color = "yellow";
 
     public Rectangle() {
     }
 
-    public Rectangle(double width, double length) {
+    public Rectangle(double width, double height) {
         this.width = width;
-        this.length = length;
+        this.height = height;
     }
 
-    public Rectangle(double width, double length, String color, boolean filled) {
-        super(color, filled);
+    public Rectangle(double width, double height, String color) {
         this.width = width;
-        this.length = length;
+        this.height = height;
+        this.color = color;
     }
 
     public double getWidth() {
@@ -24,29 +25,34 @@ public class Rectangle extends Shape {
         this.width = width;
     }
 
-    public double getLength() {
-        return length;
+    public double getHeight() {
+        return height;
     }
 
-    public void setLength(double length) {
-        this.length = length;
+    public void setHeight(double height) {
+        this.height = height;
     }
 
-    public double getArea() {
-        return width * this.length;
+    public String getColor() {
+        return color;
     }
 
-    public double getPerimeter() {
-        return 2 * (width + this.length);
+    public void setColor(String color) {
+        this.color = color;
     }
 
     @Override
     public String toString() {
-        return "A Rectangle with width="
-                + getWidth()
-                + " and length="
-                + getLength()
-                + ", which is a subclass of "
-                + super.toString();
+        return "Rectangle{" +
+                "width=" + width +
+                ", height=" + height +
+                ", color='" + color + '\'' +
+                '}';
+    }
+
+    @Override
+    public void resize(double percent) {
+        this.setWidth(this.width*percent/100);
+        this.setHeight(this.height*percent/100);
     }
 }
