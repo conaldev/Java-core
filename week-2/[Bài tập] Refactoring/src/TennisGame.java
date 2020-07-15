@@ -21,32 +21,35 @@ public class TennisGame {
                     score = "Deuce";
                     break;
             }
-        } else if (score1 >= 4 || score2 >= 4) {
-            int minusResult = score1 - score2;
-            if (minusResult == 1) score = "Advantage player 1";
-            else if (minusResult == -1) score = "Advantage player 2";
-            else if (minusResult >= 2) score = "Win for player 1";
-            else score = "Win for player 2";
         } else {
-            for (int i = 1; i < 3; i++) {
-                if (i == 1) tempScore = score1;
-                else {
-                    score += "-";
-                    tempScore = score2;
-                }
-                switch (tempScore) {
-                    case 0:
-                        score += "Love";
-                        break;
-                    case 1:
-                        score += "Fifteen";
-                        break;
-                    case 2:
-                        score += "Thirty";
-                        break;
-                    case 3:
-                        score += "Forty";
-                        break;
+            boolean isLargerThan4 = score1 >= 4 || score2 >= 4;
+            if (isLargerThan4) {
+                int minusResult = score1 - score2;
+                if (minusResult == 1) score = "Advantage player 1";
+                else if (minusResult == -1) score = "Advantage player 2";
+                else if (minusResult >= 2) score = "Win for player 1";
+                else score = "Win for player 2";
+            } else {
+                for (int i = 1; i < 3; i++) {
+                    if (i == 1) tempScore = score1;
+                    else {
+                        score += "-";
+                        tempScore = score2;
+                    }
+                    switch (tempScore) {
+                        case 0:
+                            score += "Love";
+                            break;
+                        case 1:
+                            score += "Fifteen";
+                            break;
+                        case 2:
+                            score += "Thirty";
+                            break;
+                        case 3:
+                            score += "Forty";
+                            break;
+                    }
                 }
             }
         }
