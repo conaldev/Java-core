@@ -1,26 +1,39 @@
 public class NextDayCalculator {
+    public static final int JANUARY = 1;
+    public static final int FEBRUARY = 2;
+    public static final int MARCH = 3;
+    public static final int APRIL = 4;
+    public static final int MAY = 5;
+    public static final int JUNE = 6;
+    public static final int JULY = 7;
+    public static final int AUGUST = 8;
+    public static final int SEPTEMBER = 9;
+    public static final int OCTOBER = 10;
+    public static final int NOVEMBER = 11;
+    public static final int DECEMBER= 12;
+
     public static String nextDayCalculator(int day, int month, int year) {
         int maxDay = 0;
         switch (month) {
-            case 1:
-            case 3:
-            case 5:
-            case 7:
-            case 8:
-            case 10:
-            case 12:
+            case JANUARY:
+            case MARCH:
+            case MAY:
+            case JULY:
+            case AUGUST:
+            case OCTOBER:
+            case DECEMBER:
                 maxDay = 31;
             break;
-            case 2:
+            case FEBRUARY:
                 if (isLeapYear(year))
                     maxDay = 29;
                 else
                     maxDay = 28;
                 break;
-            case 4:
-            case 6:
-            case 9:
-            case 11:
+            case APRIL:
+            case JUNE:
+            case SEPTEMBER:
+            case NOVEMBER:
                 maxDay = 30;
                 break;
         }
