@@ -1,6 +1,6 @@
+import java.util.Date;
 public class BinarySearch {
-    static int[] list = {2, 4, 7, 10, 11, 45, 50, 59, 60, 66, 69, 70, 79};
-    static int binarySearch(int[] list, int key ){
+     static int binarySearch(int[] list, int key ){
         int low =0;
         int high = list.length -1;
         while(high>=low){
@@ -16,11 +16,15 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        System.out.println(binarySearch(list,2));
-        System.out.println(binarySearch(list,11));
-        System.out.println(binarySearch(list,79));
-        System.out.println(binarySearch(list,1));
-        System.out.println(binarySearch(list,5));
-        System.out.println(binarySearch(list,80));
+        int[] list = new int[1000000];
+        for (int i = 0; i < list.length; i++) {
+            list[i] =i+1;
+        }
+        long start = System.currentTimeMillis();
+        for(int i=0;i<10000000;i++){
+            binarySearch(list,50003);
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("Time = " + (end-start));
     }
 }
