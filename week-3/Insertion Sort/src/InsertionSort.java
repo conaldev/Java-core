@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class InsertionSort {
@@ -13,7 +14,6 @@ public class InsertionSort {
             }
             arr[j + 1] = key;
         }
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
+        System.out.println(Arrays.toString(arr));
 }
 }
