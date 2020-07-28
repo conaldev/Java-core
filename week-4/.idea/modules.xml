@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BT-copy-file-nhi-phan/BT-copy-file-nhi-phan.iml" filepath="$PROJECT_DIR$/BT-copy-file-nhi-phan/BT-copy-file-nhi-phan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOCopyTextFile/IOCopyTextFile.iml" filepath="$PROJECT_DIR$/IOCopyTextFile/IOCopyTextFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/[BT]-doc-file.csv/[BT]-doc-file.csv.iml" filepath="$PROJECT_DIR$/[BT]-doc-file.csv/[BT]-doc-file.csv.iml" />
       <module fileurl="file://$PROJECT_DIR$/[TH]-IO-Text-File/[TH]-IO-Text-File.iml" filepath="$PROJECT_DIR$/[TH]-IO-Text-File/[TH]-IO-Text-File.iml" />
+      <module fileurl="file://$PROJECT_DIR$/[TH]-copy-file-co-dung-luong-lon/[TH]-copy-file-co-dung-luong-lon.iml" filepath="$PROJECT_DIR$/[TH]-copy-file-co-dung-luong-lon/[TH]-copy-file-co-dung-luong-lon.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/week-4.iml" filepath="$PROJECT_DIR$/.idea/week-4.iml" />
     </modules>
   </component>
