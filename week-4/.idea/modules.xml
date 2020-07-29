@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BT-copy-file-nhi-phan/BT-copy-file-nhi-phan.iml" filepath="$PROJECT_DIR$/BT-copy-file-nhi-phan/BT-copy-file-nhi-phan.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOCopyTextFile/IOCopyTextFile.iml" filepath="$PROJECT_DIR$/IOCopyTextFile/IOCopyTextFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/[BT]-Tim-so-nguyen-to/[BT]-Tim-so-nguyen-to.iml" filepath="$PROJECT_DIR$/[BT]-Tim-so-nguyen-to/[BT]-Tim-so-nguyen-to.iml" />
       <module fileurl="file://$PROJECT_DIR$/[BT]-doc-file.csv/[BT]-doc-file.csv.iml" filepath="$PROJECT_DIR$/[BT]-doc-file.csv/[BT]-doc-file.csv.iml" />
       <module fileurl="file://$PROJECT_DIR$/[BT]-quan-ly-san-pham-luu-ra-file-nhi-phan/[BT]-quan-ly-san-pham-luu-ra-file-nhi-phan.iml" filepath="$PROJECT_DIR$/[BT]-quan-ly-san-pham-luu-ra-file-nhi-phan/[BT]-quan-ly-san-pham-luu-ra-file-nhi-phan.iml" />
       <module fileurl="file://$PROJECT_DIR$/[BT]-tao-thread-don-gian/[BT]-tao-thread-don-gian.iml" filepath="$PROJECT_DIR$/[BT]-tao-thread-don-gian/[BT]-tao-thread-don-gian.iml" />
