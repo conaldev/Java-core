@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BT-Validate-So-Dien-Thoai/BT-Validate-So-Dien-Thoai.iml" filepath="$PROJECT_DIR$/BT-Validate-So-Dien-Thoai/BT-Validate-So-Dien-Thoai.iml" />
       <module fileurl="file://$PROJECT_DIR$/BT-copy-file-nhi-phan/BT-copy-file-nhi-phan.iml" filepath="$PROJECT_DIR$/BT-copy-file-nhi-phan/BT-copy-file-nhi-phan.iml" />
       <module fileurl="file://$PROJECT_DIR$/Crawl-Danh-Sach-Bai-Hat/Crawl-Danh-Sach-Bai-Hat.iml" filepath="$PROJECT_DIR$/Crawl-Danh-Sach-Bai-Hat/Crawl-Danh-Sach-Bai-Hat.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOCopyTextFile/IOCopyTextFile.iml" filepath="$PROJECT_DIR$/IOCopyTextFile/IOCopyTextFile.iml" />
